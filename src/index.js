@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import App from './content/App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+      <App />
+    <script src="scripts/bootstrap.js"></script>
   </React.StrictMode>,
   document.getElementById('root')
 );
