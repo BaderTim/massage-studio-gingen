@@ -1,10 +1,11 @@
 # Quickstart for a new React project
-Contains:
+### Contains:
 - Bootstrap 5.0.2 CSS and JS
 - React Class Layout
 - Routing fix for production build ("homepage": ".")
   
-How to use:
+### How to use:
 - Clone this Repository: `$ git clone https://github.com/BaderTim/quickstart-react.git`
 - Remove origin: `$ git remote remove origin`
+- Change `name` in `package.json`
 - Install npm: `$ install npm`
