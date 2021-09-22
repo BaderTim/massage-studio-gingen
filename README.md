@@ -5,6 +5,6 @@ Contains:
 - Routing fix for production build ("homepage": ".")
   
 How to use:
-- Clone this Repository
+- Clone this Repository: `$ git clone https://github.com/BaderTim/quickstart-react.git`
 - Remove origin: `$ git remote remove origin`
 - Install npm: `$ install npm`
