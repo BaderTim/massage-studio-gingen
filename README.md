@@ -6,5 +6,5 @@ Contains:
   
 How to use:
 - Clone this Repository
-- Remove origin: $ git remote remove origin
-- Install npm: $ install npm
+- Remove origin: `$ git remote remove origin`
+- Install npm: `$ install npm`
