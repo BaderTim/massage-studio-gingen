@@ -4,12 +4,12 @@ import App from './content/App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-      <App />
-    <script src="scripts/bootstrap.js"></script>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <App />
+        <script src="scripts/bootstrap.js"/>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
