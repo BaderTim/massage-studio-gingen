@@ -1,6 +1,9 @@
 import React from 'react'
+import {BrowserView, MobileView} from 'react-device-detect';
 
 import './App.css'
+import MobilePage from "./pages/MobilePage";
+import BrowserPage from "./pages/BrowserPage";
 
 export default class App extends React.Component {
 
@@ -14,7 +17,12 @@ export default class App extends React.Component {
   render() {
     return (
     <div className="App">
-      Hi!
+      <BrowserView>
+        <BrowserPage/>
+      </BrowserView>
+      <MobileView>
+        <MobilePage/>
+      </MobileView>
     </div>
     )
   }
