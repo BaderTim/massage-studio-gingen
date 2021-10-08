@@ -44,7 +44,7 @@ export default class MobilePage extends React.Component {
                         </p>
                     </div>
 
-                    <img className={"intro-image"}
+                    <img className={"intro-image"} alt={"massage_images"}
                          src={"images/uebersicht_2.jfif"}/>
                          <br/>
                 </div>
@@ -97,7 +97,7 @@ export default class MobilePage extends React.Component {
                             ein sanftes Kissen für Ihre Seele und weiche Hände
                             für Ihre Verspannungen.
                         </p>
-                        <img className={"intro-image"}
+                        <img className={"intro-image"} alt={"larisa_image"}
                              src={"images/larissa.jfif"}/>
                         <blockquote className="blockquote" style={{marginTop: "5px"}}>
                             <p>Larisa Rißling</p>
