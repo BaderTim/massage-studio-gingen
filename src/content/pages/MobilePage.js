@@ -87,7 +87,7 @@ export default class MobilePage extends React.Component {
                 <div className={"bottom-container"}>
                     <br/>
                     <a href="https://api.whatsapp.com/send?phone=4915775200174&text=Hallo,%20ich%20m%C3%B6chte%20gerne%20einen%20Termin%20f%C3%BCr%20eine%20Massage%20vereinbaren%20:)" target="_blank"
-                       className="list-group-item list-group-item-action list-group-item-success wa-termin">
+                       className="list-group-item list-group-item-action list-group-item-success wa-termin" rel="noreferrer">
                         <img src={"wa_icon.png"} width={"20px"} alt={"wa_icon"}/>
                         {" "} Jetzt Termin vereinbaren
                     </a>
