@@ -8,6 +8,7 @@
     max-width: 600px;
     margin: 0 auto 0 auto;
     background-color: #fde3d1;
-    border-left: #777DA7 2px dotted;
-    border-right: #777DA7 2px dotted;
+    border-left: #777DA7 2px solid;
+    border-right: #777DA7 2px solid;
+    height: 100%;
 }
