@@ -1,11 +1,12 @@
 import React from 'react'
 
 import './BrowserPage.css'
+import MobilePage from "./MobilePage";
 
 export default class BrowserPage extends React.Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
         }
     }
@@ -14,7 +15,9 @@ export default class BrowserPage extends React.Component {
     render() {
         return (
             <div className="BrowserPage">
-                Browser
+                <div className={"browser-page-container"}>
+                    <MobilePage/>
+                </div>
             </div>
         )
     }
