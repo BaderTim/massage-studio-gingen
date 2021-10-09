@@ -61,13 +61,19 @@ export default class MobilePage extends React.Component {
                     <hr style={{margin: "0px"}}/>
                     <Accordion title={"Mein Angebot"}>
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item d-flex justify-content-between align-items-center rhythm-bg-medium">
-                                <span>Klassische Massage<small style={{paddingLeft: "10px"}}><em>30 & 60 Minuten</em></small></span>
+                            <li className="list-group-item justify-content-between align-items-center rhythm-bg-medium">
+                                <span>Klassische Massage</span>
+                                <br/>
                                 <span>
-                                    <span className="badge bg-success rounded-pill">37 €</span>
-                                    {" "}<small>bzw.</small>{" "}
-                                    <span className="badge bg-success rounded-pill">55 €</span>
+                                    <small>30 Minuten</small>
+                                    <span className="badge bg-success rounded-pill" style={{float: "right"}}>37 €</span>
                                 </span>
+                                <br/>
+                                <span>
+                                    <small>60 Minuten</small>
+                                    <span className="badge bg-success rounded-pill" style={{float: "right"}}>55 €</span>
+                                </span>
+
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center rhythm-bg-light">
                                 <span>Kräuterstempel Massage<small style={{paddingLeft: "10px"}}><em>60 Minuten</em></small></span>
