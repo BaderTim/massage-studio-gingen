@@ -1,5 +1,5 @@
 .MobilePage {
-    height: 100vh!important;
+    height: 100vh;
     margin: 0!important;
     display:flex!important;
     flex-direction:column!important;

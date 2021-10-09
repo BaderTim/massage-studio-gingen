@@ -27,7 +27,7 @@ export default class MobilePage extends React.Component {
 
     render() {
         return (
-            <div className="MobilePage">
+            <div id={"mobile_page"} className="MobilePage">
                 <div className={"content"}>
                 <div className={"entry-container"}>
                     <h1 className={"display-6 rhythm bold-sm"}>

@@ -11,6 +11,10 @@ export default class BrowserPage extends React.Component {
         }
     }
 
+    componentDidMount() {
+        document.getElementById("mobile_page").style = "height: unset!important";
+    }
+
 
     render() {
         return (
