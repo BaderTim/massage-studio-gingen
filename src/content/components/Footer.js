@@ -21,10 +21,27 @@ export default class Accordion extends React.Component {
                 <div className={"impressum lightpeach-bg"}>
                     <h1 className={"display-4"}>Impressum</h1>
                     <br/>
-                    <p className={"lead"}>Line one</p>
-                    <p className={"lead"}>Line two</p>
-                    <p className={"lead"}>Line three <strong>lol</strong></p>
-                    <p className={"lead"}>Line four</p>
+                    <p className={"lead"}><strong>Angaben gemäß § 5 TMG</strong></p>
+                    <p className={"lead"}>
+                        Larissa Rissling<br/>
+                        Hindenburgstraße 157<br/>
+                        73333 Gingen<br/>
+                    </p>
+                    <p className={"lead"}>
+                        <strong>Kontakt:</strong><br/>
+                        <table class="table" style={{maxWidth: "300px"}}>
+                            <tr>
+                                <td>Telefon:</td>
+                                <td>+49 15775200174</td>
+                            </tr>
+                            <tr>
+                                <td>E-Mail:</td>
+                                <td>larisarissling@web.de</td>
+                            </tr>
+                        </table>
+
+                    </p>
+
                 </div>
             </div>
             <div hidden={!this.state.impressumActive}

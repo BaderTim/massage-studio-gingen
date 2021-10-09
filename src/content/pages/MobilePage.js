@@ -59,48 +59,56 @@ export default class MobilePage extends React.Component {
                     </div>
                 <div className={"accordion-container"}>
                     <hr style={{margin: "0px"}}/>
-                    <Accordion title={"Unser Angebot"}>
+                    <Accordion title={"Mein Angebot"}>
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item d-flex justify-content-between align-items-center rhythm-bg-medium">
-                                Klassische Massage
-                                <span className="badge bg-success rounded-pill">30 €</span>
+                                <span>Klassische Massage<small style={{paddingLeft: "10px"}}><em>30 & 60 Minuten</em></small></span>
+                                <span>
+                                    <span className="badge bg-success rounded-pill">37 €</span>
+                                    {" "}<small>bzw.</small>{" "}
+                                    <span className="badge bg-success rounded-pill">55 €</span>
+                                </span>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center rhythm-bg-light">
-                                Kräuterstempel Massage
-                                <span className="badge bg-success rounded-pill">20 €</span>
+                                <span>Kräuterstempel Massage<small style={{paddingLeft: "10px"}}><em>60 Minuten</em></small></span>
+                                <span className="badge bg-success rounded-pill">65 €</span>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center rhythm-bg-medium">
-                                Hot Stone Massage
+                                <span>Hot Stone Massage<small style={{paddingLeft: "10px"}}><em>60 Minuten</em></small></span>
                                 <span className="badge bg-success rounded-pill">60 €</span>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center rhythm-bg-light">
-                                Schröpfmassage
-                                <span className="badge bg-success rounded-pill">40 €</span>
+                                <span>Schröpfmassage<small style={{paddingLeft: "10px"}}><em>30 Minuten</em></small></span>
+                                <span className="badge bg-success rounded-pill">35 €</span>
                             </li>
                             <li className="list-group-item d-flex justify-content-between align-items-center rhythm-bg-medium">
-                                Gesichtsmassage
-                                <span className="badge bg-success rounded-pill">22 €</span>
+                                <span>Ayurveda Massage<small style={{paddingLeft: "10px"}}><em>90 Minuten</em></small></span>
+                                <span className="badge bg-success rounded-pill">75 €</span>
+                            </li>
+                            <li className="list-group-item d-flex justify-content-between align-items-center rhythm-bg-light">
+                                <span>Kopf, Nacken, Gesicht<small style={{paddingLeft: "10px"}}><em>30 Minuten</em></small></span>
+                                <span className="badge bg-success rounded-pill">35 €</span>
                             </li>
                         </ul>
                     </Accordion>
                     <hr style={{margin: "0px"}}/>
 
-                    <Accordion title={"Über Uns"}>
+                    <Accordion title={"Über Mich"}>
                         <p className={"lead"} style={{fontSize: "16px"}}>
                             <strong>
                                 Anhaltender Stress setzt Ihrem Körper stark zu.{" "}
                             </strong>
-                            In unserem Massagestudio in Gingen an der Fils
+                            In meinem Massagestudio in Gingen an der Fils
                             erfahren Sie die ein rundum Wohlfühlerlebnis,
                             das sich von Wellness bishin zu vielerlei
-                            professionellen Massagen erstreckt. <br/>Wir bieten Ihnen
+                            professionellen Massagen erstreckt. <br/>Ich biete Ihnen
                             ein sanftes Kissen für Ihre Seele und weiche Hände
                             für Ihre Verspannungen.
                         </p>
                         <img className={"intro-image"} alt={"larisa_image"}
                              src={"images/larissa.jfif"}/>
                         <blockquote className="blockquote" style={{marginTop: "5px"}}>
-                            <p>Larisa Rißling</p>
+                            <p>Larissa Rissling</p>
                         </blockquote>
                         <figcaption className="blockquote-footer">
                             Professionelle Masseurin aus
