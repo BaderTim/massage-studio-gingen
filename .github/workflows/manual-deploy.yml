@@ -18,7 +18,19 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "greet"
+  build:
+      runs-on: ubuntu-latest
+      name: Build and Push
+      steps:
+        - name: git-checkout
+          uses: actions/checkout@v2
+
+        - name: Install all dependencies
+          run: npm install
+
+        - name: Build
+          run: npm run build # The build command of your project
+
   deploy:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -33,4 +45,4 @@ jobs:
     - name: Adding Known Hosts
       run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
     - name: Deploy with rsync
-      run: rsync -avz ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
+      run: rsync -avz ./build ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
