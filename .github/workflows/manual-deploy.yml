@@ -1,6 +1,6 @@
 # This is a basic workflow that is manually triggered
 
-name: Manual deploy to server
+name: Deploy to IONOS
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
@@ -35,4 +35,4 @@ jobs:
       run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
       
     - name: Deploy with rsync
-      run: rsync -avz /build/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
+      run: rsync -avz ./build/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
