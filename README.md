@@ -1,5 +1,5 @@
 # massage-studio-gingen
-A responsive React PWA for a local massage studio.  
+A responsive PWA made with React for a local massage studio.  
   
 - GitHub.io: https://badertim.github.io/massage-studio-gingen/
 - Website: https://unexpected42.de
