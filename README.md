@@ -7,4 +7,4 @@ A responsive PWA made with React for a local massage studio.
  ## Used tools:
  - **Framework:** React
  - **Design:** Bootstrap, [Coolors](https://coolors.co/)
- - **Content:** slogan & description by [OpenAI](https://beta.openai.com/) `davinci-instruct` model, transaltion by [DeepL](https://www.deepl.com/)
+ - **Content:** slogan & description by [OpenAI](https://beta.openai.com/)'s *davinci-instruct* model, transaltion by [DeepL](https://www.deepl.com/)
