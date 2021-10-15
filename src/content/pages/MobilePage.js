@@ -75,25 +75,50 @@ export default class MobilePage extends React.Component {
                                 </span>
 
                             </li>
-                            <li className="list-group-item d-flex justify-content-between align-items-center rhythm-bg-light">
-                                <span>Kräuterstempel Massage<small style={{paddingLeft: "10px"}}><em>60 Minuten</em></small></span>
-                                <span className="badge bg-success rounded-pill">65 €</span>
+
+                            <li className="list-group-item justify-content-between align-items-center rhythm-bg-light">
+                                <span>Kopf, Nacken, Gesicht</span>
+                                <br/>
+                                <span>
+                                    <small>30 Minuten</small>
+                                    <span className="badge bg-success rounded-pill" style={{float: "right"}}>35 €</span>
+                                </span>
                             </li>
-                            <li className="list-group-item d-flex justify-content-between align-items-center rhythm-bg-medium">
-                                <span>Hot Stone Massage<small style={{paddingLeft: "10px"}}><em>60 Minuten</em></small></span>
-                                <span className="badge bg-success rounded-pill">60 €</span>
+
+                            <li className="list-group-item justify-content-between align-items-center rhythm-bg-medium">
+                                <span>Schröpfmassage</span>
+                                <br/>
+                                <span>
+                                    <small>30 Minuten</small>
+                                    <span className="badge bg-success rounded-pill" style={{float: "right"}}>35 €</span>
+                                </span>
                             </li>
-                            <li className="list-group-item d-flex justify-content-between align-items-center rhythm-bg-light">
-                                <span>Schröpfmassage<small style={{paddingLeft: "10px"}}><em>30 Minuten</em></small></span>
-                                <span className="badge bg-success rounded-pill">35 €</span>
+
+                            <li className="list-group-item justify-content-between align-items-center rhythm-bg-light">
+                                <span>Hot Stone Massage</span>
+                                <br/>
+                                <span>
+                                    <small>60 Minuten</small>
+                                    <span className="badge bg-success rounded-pill" style={{float: "right"}}>60 €</span>
+                                </span>
                             </li>
-                            <li className="list-group-item d-flex justify-content-between align-items-center rhythm-bg-medium">
-                                <span>Ayurveda Massage<small style={{paddingLeft: "10px"}}><em>90 Minuten</em></small></span>
-                                <span className="badge bg-success rounded-pill">75 €</span>
+
+                            <li className="list-group-item justify-content-between align-items-center rhythm-bg-medium">
+                                <span>Kräuterstempel Massage</span>
+                                <br/>
+                                <span>
+                                    <small>60 Minuten</small>
+                                    <span className="badge bg-success rounded-pill" style={{float: "right"}}>65 €</span>
+                                </span>
                             </li>
-                            <li className="list-group-item d-flex justify-content-between align-items-center rhythm-bg-light">
-                                <span>Kopf, Nacken, Gesicht<small style={{paddingLeft: "10px"}}><em>30 Minuten</em></small></span>
-                                <span className="badge bg-success rounded-pill">35 €</span>
+
+                            <li className="list-group-item justify-content-between align-items-center rhythm-bg-light">
+                                <span>Ayurveda Massage</span>
+                                <br/>
+                                <span>
+                                    <small>90 Minuten</small>
+                                    <span className="badge bg-success rounded-pill" style={{float: "right"}}>75 €</span>
+                                </span>
                             </li>
                         </ul>
                     </Accordion>
