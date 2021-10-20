@@ -65,23 +65,22 @@ export default class MobilePage extends React.Component {
                                 <span>Klassische Massage</span>
                                 <br/>
                                 <span>
-                                    <small>30 Minuten</small>
-                                    <span className="badge bg-success rounded-pill" style={{float: "right"}}>37 €</span>
+                                    <small>30 Minuten (nur Nacken & Rücken)</small>
+                                    <span className="badge bg-success rounded-pill" style={{float: "right"}}>30 €</span>
                                 </span>
                                 <br/>
                                 <span>
                                     <small>60 Minuten</small>
                                     <span className="badge bg-success rounded-pill" style={{float: "right"}}>55 €</span>
                                 </span>
-
                             </li>
 
                             <li className="list-group-item justify-content-between align-items-center rhythm-bg-light">
-                                <span>Kopf, Nacken, Gesicht</span>
+                                <span>Kopf-, Nacken- & Gesichtsmassage</span>
                                 <br/>
                                 <span>
                                     <small>30 Minuten</small>
-                                    <span className="badge bg-success rounded-pill" style={{float: "right"}}>35 €</span>
+                                    <span className="badge bg-success rounded-pill" style={{float: "right"}}>30 €</span>
                                 </span>
                             </li>
 
@@ -89,8 +88,13 @@ export default class MobilePage extends React.Component {
                                 <span>Schröpfmassage</span>
                                 <br/>
                                 <span>
-                                    <small>30 Minuten</small>
+                                    <small>30 Minuten (nur Nacken & Rücken)</small>
                                     <span className="badge bg-success rounded-pill" style={{float: "right"}}>35 €</span>
+                                </span>
+                                <br/>
+                                <span>
+                                    <small>60 Minuten</small>
+                                    <span className="badge bg-success rounded-pill" style={{float: "right"}}>60 €</span>
                                 </span>
                             </li>
 
