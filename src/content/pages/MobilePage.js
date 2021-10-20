@@ -80,7 +80,7 @@ export default class MobilePage extends React.Component {
                                 <br/>
                                 <span>
                                     <small>30 Minuten</small>
-                                    <span className="badge bg-success rounded-pill" style={{float: "right"}}>30 €</span>
+                                    <span className="badge bg-success rounded-pill" style={{float: "right"}}>35 €</span>
                                 </span>
                             </li>
 
